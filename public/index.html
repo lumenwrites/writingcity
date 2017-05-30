@@ -73,13 +73,16 @@
 	  <p>Get started on your path to becoming an excellent storyteller!</p>
 
 	  <!-- Get Response -->
-	  <form action="https://app.getresponse.com/add_subscriber.html"
-		method="post">
+	  <form action="https://app.getresponse.com/add_subscriber.html" method="post">
 	    <input type="email" name="email" class="form-control-cta"
 		   placeholder="Enter your email..." />
 	    <!-- Meta -->
 	    <input type="hidden" name="campaign_token" value="TkG7W" />
-	    <input type="hidden" name="thankyou_url" value="http://writing.city/thankyou"/>
+	    <!-- Thankyou page -->
+	    <input type="hidden" name="thankyou_url"
+		   value="http://writing.city/thankyou"/>
+	    <!-- Add to sequence -->
+	    <input type="hidden" name="start_day" value="0" />
 	    <input type="hidden" name="src" value="" />	  
 	    <button class="btn btn-cta-large full-width"  type="submit">
 	      Subscribe and download the Starter Kit
